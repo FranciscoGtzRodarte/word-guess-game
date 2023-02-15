@@ -18,7 +18,15 @@ var startEl = document.querySelector(".start-button");
 var wordBlanks = document.querySelector(".word-blanks");
 var wins = document.querySelector(".win");
 var loses = document.querySelector(".lose");
-var words = ["wasp", "megan", "avatar"];
+var words = [
+  "ELVIS",
+  "TAR",
+  "AVATAR",
+  "BLONDE",
+  "PINOCCHIO",
+  "BABYLON",
+  "BATMAN",
+];
 var underscores = [];
 var timerEl = document.querySelector(".timer-count");
 var resetEl = document.querySelector(".reset-button");
@@ -51,7 +59,7 @@ function startGame() {
 //checks if the key pressed is include in the chosen word and also calls the function checkWinWord with the typeWord and chosenWord as parameters
 function keyPressed(event) {
   // Access value of pressed key with key property
-  var key = event.key.toLowerCase();
+  var key = event.key.toUpperCase();
   console.log(key);
 
   if (chosenWord.includes(key)) {

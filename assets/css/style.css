@@ -3,13 +3,12 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: "Hoefler Text 4r",Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-  background: linear-gradient(0deg, rgba(19,41,61,1) 0%, rgba(237,245,249,1) 63%);
 }
 
 .reset-button {
@@ -26,9 +25,9 @@ body {
 }
 
 button {
-  background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
+  background: rgb(64, 64, 63);
   border-radius: 8px;
-  color: #13293d;
+  color: rgb(199, 159, 39);
   cursor: pointer;
   font-size: 2em;
   letter-spacing: 0.21px;
@@ -40,12 +39,14 @@ button {
   transition-property: background-color;
   transition-timing-function: linear;
   margin-top: 0.6em;
+  font-family: "futura book legacy","FuturaPT-Book",Futura,"Trebuchet MS",Arial,sans-serif;
+
 }
 
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: rgb(249, 249, 249);
   color: #fff;
   border-bottom:30px #879274;
 }
@@ -75,13 +76,16 @@ section {
 }
 
 .card {
-  background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,124,33,0.604079131652661) 100%);
+  background:  rgb(199, 159, 39);
   border: 1px solid #eceff1;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
     rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
   margin: auto;
   padding: 20px;
+  font-family: "futura book legacy","FuturaPT-Book",Futura,"Trebuchet MS",Arial,sans-serif;
+  color: #fff;
+
 }
 
 .word-blanks {
@@ -93,10 +97,32 @@ section {
   text-align:center;
 }
 
+.large-font h1{
+  font-size: .8em;
+  margin: 0 auto;
+  color: rgb(199, 159, 39);
+  font-weight: 100;
+  font-family: "futura book legacy","FuturaPT-Book",Futura,"Trebuchet MS",Arial,sans-serif;
+
+}
+
+.large-font h2{
+  font-size: .5em;
+  color: #13293d;
+  font-family: "Hoefler Text 4r",Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+  
+}
+
+h2{
+  font-family: "Hoefler Text 4r",Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
 .timer {
   height: 240px;
   padding: 10px;
-  background: #13293d;
+  background: #757576;
   color: #fff;
   text-align: center;
 }

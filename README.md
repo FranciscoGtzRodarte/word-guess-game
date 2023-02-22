@@ -30,30 +30,7 @@ The completed application should meet the following criteria:
 
 * When a user refreshes or returns to the brower page, the win and loss counts should persist.
 
-## 💡 Notes
+## Deployed site link
+https://franciscogtzrodarte.github.io/word-guess-game/
 
-Refer to the documentation:
-
-* [MDN Web Docs on KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
-
-* [MDN Web Docs on Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-
-* [MDN Web Docs on loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-
-* [MDN Web Docs on setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
-
-* [MDN Web Docs on clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
-
-* [MDN Web Docs on localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you add a reset button to set the win and loss counts back to zero? 
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+# Thanks for watching
